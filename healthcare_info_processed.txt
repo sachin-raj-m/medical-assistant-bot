@@ -1,0 +1,200 @@
+For the condition 'Diabetes', the prescribed medication is 'Citalopram'. Patients may experience symptoms like 'Fatigue', and are advised to 'Maintain a balanced diet'. However, possible side effects include 'Constipation'. Recommended treatment options include 'Cognitive Behavioral Therapy'.
+
+For the condition 'Diabetes', the prescribed medication is 'Paracetamol'. Patients may experience symptoms like 'Abdominal Pain', and are advised to 'Avoid smoking'. However, possible side effects include 'Drowsiness'. Recommended treatment options include 'Rest and Hydration'.
+
+For the condition 'Flu', the prescribed medication is 'Montelukast'. Patients may experience symptoms like 'Diarrhea', and are advised to 'Regular health check-ups'. However, possible side effects include 'Swelling'. Recommended treatment options include 'Palliative Care'.
+
+For the condition 'Insomnia', the prescribed medication is 'Metformin'. Patients may experience symptoms like 'Nausea', and are advised to 'Get enough sleep'. However, possible side effects include 'Increased Heart Rate'. Recommended treatment options include 'Nutritional Therapy'.
+
+For the condition 'Flu', the prescribed medication is 'Metformin'. Patients may experience symptoms like 'Headache', and are advised to 'Limit alcohol consumption'. However, possible side effects include 'Dizziness'. Recommended treatment options include 'Palliative Care'.
+
+For the condition 'Chronic Pain', the prescribed medication is 'Lisinopril'. Patients may experience symptoms like 'Sore Throat', and are advised to 'Limit alcohol consumption'. However, possible side effects include 'Swelling'. Recommended treatment options include 'Medication'.
+
+For the condition 'Hypertension', the prescribed medication is 'Lisinopril'. Patients may experience symptoms like 'Dizziness', and are advised to 'Practice good hygiene'. However, possible side effects include 'Drowsiness'. Recommended treatment options include 'Pain Relievers'.
+
+For the condition 'Bronchitis', the prescribed medication is 'Gabapentin'. Patients may experience symptoms like 'Rash', and are advised to 'Avoid smoking'. However, possible side effects include 'Dizziness'. Recommended treatment options include 'Rest and Hydration'.
+
+For the condition 'Stroke', the prescribed medication is 'Atorvastatin'. Patients may experience symptoms like 'Sore Throat', and are advised to 'Practice mindfulness'. However, possible side effects include 'Nausea'. Recommended treatment options include 'Nutritional Therapy'.
+
+For the condition 'Depression', the prescribed medication is 'Albuterol'. Patients may experience symptoms like 'Vomiting', and are advised to 'Avoid smoking'. However, possible side effects include 'Headache'. Recommended treatment options include 'Rest and Hydration'.
+
+For the condition 'Depression', the prescribed medication is 'Levothyroxine'. Patients may experience symptoms like 'Cough', and are advised to 'Exercise regularly'. However, possible side effects include 'Weight Gain'. Recommended treatment options include 'Immunotherapy'.
+
+For the condition 'Bronchitis', the prescribed medication is 'Simvastatin'. Patients may experience symptoms like 'Diarrhea', and are advised to 'Get enough sleep'. However, possible side effects include 'Nausea'. Recommended treatment options include 'Pain Relievers'.
+
+For the condition 'Cancer', the prescribed medication is 'Simvastatin'. Patients may experience symptoms like 'Sore Throat', and are advised to 'Get enough sleep'. However, possible side effects include 'Blurred Vision'. Recommended treatment options include 'Antibiotics'.
+
+For the condition 'Pneumonia', the prescribed medication is 'Amoxicillin'. Patients may experience symptoms like 'Diarrhea', and are advised to 'Practice good hygiene'. However, possible side effects include 'Fatigue'. Recommended treatment options include 'Immunotherapy'.
+
+For the condition 'Stroke', the prescribed medication is 'Gabapentin'. Patients may experience symptoms like 'Chest Pain', and are advised to 'Exercise regularly'. However, possible side effects include 'Increased Heart Rate'. Recommended treatment options include 'Immunotherapy'.
+
+For the condition 'Pneumonia', the prescribed medication is 'Codeine'. Patients may experience symptoms like 'Fever', and are advised to 'Practice mindfulness'. However, possible side effects include 'Dizziness'. Recommended treatment options include 'Antibiotics'.
+
+For the condition 'Diabetes', the prescribed medication is 'Prednisone'. Patients may experience symptoms like 'Dizziness', and are advised to 'Practice mindfulness'. However, possible side effects include 'Nausea'. Recommended treatment options include 'Pain Relievers'.
+
+For the condition 'Bronchitis', the prescribed medication is 'Citalopram'. Patients may experience symptoms like 'Fever', and are advised to 'Stay hydrated'. However, possible side effects include 'Fatigue'. Recommended treatment options include 'Rest and Hydration'.
+
+For the condition 'Diabetes', the prescribed medication is 'Aspirin'. Patients may experience symptoms like 'Joint Pain', and are advised to 'Limit alcohol consumption'. However, possible side effects include 'Fever'. Recommended treatment options include 'Counseling'.
+
+For the condition 'Heart Disease', the prescribed medication is 'Sertraline'. Patients may experience symptoms like 'Joint Pain', and are advised to 'Avoid smoking'. However, possible side effects include 'Headache'. Recommended treatment options include 'Counseling'.
+
+For the condition 'Depression', the prescribed medication is 'Warfarin'. Patients may experience symptoms like 'Dizziness', and are advised to 'Exercise regularly'. However, possible side effects include 'Increased Heart Rate'. Recommended treatment options include 'Chemotherapy'.
+
+For the condition 'Pneumonia', the prescribed medication is 'Prednisone'. Patients may experience symptoms like 'Chest Pain', and are advised to 'Exercise regularly'. However, possible side effects include 'Swelling'. Recommended treatment options include 'Physical Therapy'.
+
+For the condition 'Heart Disease', the prescribed medication is 'Aspirin'. Patients may experience symptoms like 'Diarrhea', and are advised to 'Get enough sleep'. However, possible side effects include 'Dry Mouth'. Recommended treatment options include 'Antibiotics'.
+
+For the condition 'Insomnia', the prescribed medication is 'Montelukast'. Patients may experience symptoms like 'Nausea', and are advised to 'Limit alcohol consumption'. However, possible side effects include 'Loss of Appetite'. Recommended treatment options include 'Immunotherapy'.
+
+For the condition 'Asthma', the prescribed medication is 'Warfarin'. Patients may experience symptoms like 'Dizziness', and are advised to 'Maintain a balanced diet'. However, possible side effects include 'Increased Heart Rate'. Recommended treatment options include 'Counseling'.
+
+For the condition 'Common Cold', the prescribed medication is 'Amoxicillin'. Patients may experience symptoms like 'Rash', and are advised to 'Get enough sleep'. However, possible side effects include 'Dry Mouth'. Recommended treatment options include 'Cognitive Behavioral Therapy'.
+
+For the condition 'Common Cold', the prescribed medication is 'Montelukast'. Patients may experience symptoms like 'Nausea', and are advised to 'Practice mindfulness'. However, possible side effects include 'Fatigue'. Recommended treatment options include 'Rehabilitation'.
+
+For the condition 'Anxiety', the prescribed medication is 'Sertraline'. Patients may experience symptoms like 'Abdominal Pain', and are advised to 'Get enough sleep'. However, possible side effects include 'Rash'. Recommended treatment options include 'Cognitive Behavioral Therapy'.
+
+For the condition 'Bronchitis', the prescribed medication is 'Warfarin'. Patients may experience symptoms like 'Cough', and are advised to 'Practice mindfulness'. However, possible side effects include 'Loss of Appetite'. Recommended treatment options include 'Pain Relievers'.
+
+For the condition 'Chronic Pain', the prescribed medication is 'Atorvastatin'. Patients may experience symptoms like 'Back Pain', and are advised to 'Manage stress effectively'. However, possible side effects include 'Anxiety'. Recommended treatment options include 'Vaccination'.
+
+For the condition 'Pneumonia', the prescribed medication is 'Albuterol'. Patients may experience symptoms like 'Sore Throat', and are advised to 'Get enough sleep'. However, possible side effects include 'Constipation'. Recommended treatment options include 'Surgery'.
+
+For the condition 'Alzheimer’s', the prescribed medication is 'Levothyroxine'. Patients may experience symptoms like 'Blurred Vision', and are advised to 'Stay hydrated'. However, possible side effects include 'Constipation'. Recommended treatment options include 'Alternative Medicine'.
+
+For the condition 'Anxiety', the prescribed medication is 'Omeprazole'. Patients may experience symptoms like 'Runny Nose', and are advised to 'Practice good hygiene'. However, possible side effects include 'Loss of Appetite'. Recommended treatment options include 'Chemotherapy'.
+
+For the condition 'Diabetes', the prescribed medication is 'Insulin'. Patients may experience symptoms like 'Joint Pain', and are advised to 'Get enough sleep'. However, possible side effects include 'Fever'. Recommended treatment options include 'Palliative Care'.
+
+For the condition 'Arthritis', the prescribed medication is 'Gabapentin'. Patients may experience symptoms like 'Chest Pain', and are advised to 'Maintain a balanced diet'. However, possible side effects include 'Muscle Cramps'. Recommended treatment options include 'Vaccination'.
+
+For the condition 'Depression', the prescribed medication is 'Simvastatin'. Patients may experience symptoms like 'Sore Throat', and are advised to 'Stay hydrated'. However, possible side effects include 'Nausea'. Recommended treatment options include 'Inhalers'.
+
+For the condition 'Bronchitis', the prescribed medication is 'Levothyroxine'. Patients may experience symptoms like 'Diarrhea', and are advised to 'Get enough sleep'. However, possible side effects include 'Fever'. Recommended treatment options include 'Dialysis'.
+
+For the condition 'Common Cold', the prescribed medication is 'Prednisone'. Patients may experience symptoms like 'Headache', and are advised to 'Manage stress effectively'. However, possible side effects include 'Insomnia'. Recommended treatment options include 'Dialysis'.
+
+For the condition 'Flu', the prescribed medication is 'Montelukast'. Patients may experience symptoms like 'Vomiting', and are advised to 'Regular health check-ups'. However, possible side effects include 'Dry Mouth'. Recommended treatment options include 'Alternative Medicine'.
+
+For the condition 'Arthritis', the prescribed medication is 'Levothyroxine'. Patients may experience symptoms like 'Nausea', and are advised to 'Maintain a balanced diet'. However, possible side effects include 'Abdominal Pain'. Recommended treatment options include 'Rehabilitation'.
+
+For the condition 'Cancer', the prescribed medication is 'Gabapentin'. Patients may experience symptoms like 'Chest Pain', and are advised to 'Get enough sleep'. However, possible side effects include 'Headache'. Recommended treatment options include 'Palliative Care'.
+
+For the condition 'Arthritis', the prescribed medication is 'Levothyroxine'. Patients may experience symptoms like 'Chills', and are advised to 'Maintain a balanced diet'. However, possible side effects include 'Weight Gain'. Recommended treatment options include 'Nutritional Therapy'.
+
+For the condition 'Bronchitis', the prescribed medication is 'Atorvastatin'. Patients may experience symptoms like 'Muscle Pain', and are advised to 'Practice mindfulness'. However, possible side effects include 'Constipation'. Recommended treatment options include 'Pain Relievers'.
+
+For the condition 'Stroke', the prescribed medication is 'Codeine'. Patients may experience symptoms like 'Sore Throat', and are advised to 'Manage stress effectively'. However, possible side effects include 'Loss of Appetite'. Recommended treatment options include 'Immunotherapy'.
+
+For the condition 'COVID-19', the prescribed medication is 'Aspirin'. Patients may experience symptoms like 'Swelling', and are advised to 'Exercise regularly'. However, possible side effects include 'Anxiety'. Recommended treatment options include 'Antibiotics'.
+
+For the condition 'Pneumonia', the prescribed medication is 'Montelukast'. Patients may experience symptoms like 'Nausea', and are advised to 'Maintain a balanced diet'. However, possible side effects include 'Increased Blood Pressure'. Recommended treatment options include 'Radiation Therapy'.
+
+For the condition 'Allergies', the prescribed medication is 'Ibuprofen'. Patients may experience symptoms like 'Swelling', and are advised to 'Practice good hygiene'. However, possible side effects include 'Dry Mouth'. Recommended treatment options include 'Antivirals'.
+
+For the condition 'COVID-19', the prescribed medication is 'Lisinopril'. Patients may experience symptoms like 'Chest Pain', and are advised to 'Regular health check-ups'. However, possible side effects include 'Abdominal Pain'. Recommended treatment options include 'Counseling'.
+
+For the condition 'Chronic Pain', the prescribed medication is 'Warfarin'. Patients may experience symptoms like 'Diarrhea', and are advised to 'Stay hydrated'. However, possible side effects include 'Increased Blood Pressure'. Recommended treatment options include 'Radiation Therapy'.
+
+For the condition 'Stroke', the prescribed medication is 'Simvastatin'. Patients may experience symptoms like 'Fatigue', and are advised to 'Manage stress effectively'. However, possible side effects include 'Drowsiness'. Recommended treatment options include 'Physical Therapy'.
+
+For the condition 'Cancer', the prescribed medication is 'Warfarin'. Patients may experience symptoms like 'Rash', and are advised to 'Regular health check-ups'. However, possible side effects include 'Diarrhea'. Recommended treatment options include 'Counseling'.
+
+For the condition 'Hypertension', the prescribed medication is 'Citalopram'. Patients may experience symptoms like 'Sore Throat', and are advised to 'Manage stress effectively'. However, possible side effects include 'Drowsiness'. Recommended treatment options include 'Rehabilitation'.
+
+For the condition 'Stroke', the prescribed medication is 'Simvastatin'. Patients may experience symptoms like 'Swelling', and are advised to 'Stay hydrated'. However, possible side effects include 'Abdominal Pain'. Recommended treatment options include 'Inhalers'.
+
+For the condition 'Allergies', the prescribed medication is 'Montelukast'. Patients may experience symptoms like 'Rash', and are advised to 'Limit alcohol consumption'. However, possible side effects include 'Constipation'. Recommended treatment options include 'Inhalers'.
+
+For the condition 'Obesity', the prescribed medication is 'Atorvastatin'. Patients may experience symptoms like 'Abdominal Pain', and are advised to 'Regular health check-ups'. However, possible side effects include 'Drowsiness'. Recommended treatment options include 'Pain Relievers'.
+
+For the condition 'Pneumonia', the prescribed medication is 'Prednisone'. Patients may experience symptoms like 'Blurred Vision', and are advised to 'Practice mindfulness'. However, possible side effects include 'Abdominal Pain'. Recommended treatment options include 'Chemotherapy'.
+
+For the condition 'Pneumonia', the prescribed medication is 'Metformin'. Patients may experience symptoms like 'Fatigue', and are advised to 'Manage stress effectively'. However, possible side effects include 'Drowsiness'. Recommended treatment options include 'Surgery'.
+
+For the condition 'Obesity', the prescribed medication is 'Simvastatin'. Patients may experience symptoms like 'Back Pain', and are advised to 'Avoid smoking'. However, possible side effects include 'Blurred Vision'. Recommended treatment options include 'Antivirals'.
+
+For the condition 'COVID-19', the prescribed medication is 'Warfarin'. Patients may experience symptoms like 'Vomiting', and are advised to 'Stay hydrated'. However, possible side effects include 'Constipation'. Recommended treatment options include 'Inhalers'.
+
+For the condition 'Chronic Pain', the prescribed medication is 'Citalopram'. Patients may experience symptoms like 'Muscle Pain', and are advised to 'Maintain a balanced diet'. However, possible side effects include 'Swelling'. Recommended treatment options include 'Pain Relievers'.
+
+For the condition 'Stroke', the prescribed medication is 'Ibuprofen'. Patients may experience symptoms like 'Sore Throat', and are advised to 'Limit alcohol consumption'. However, possible side effects include 'Increased Heart Rate'. Recommended treatment options include 'Surgery'.
+
+For the condition 'Obesity', the prescribed medication is 'Lisinopril'. Patients may experience symptoms like 'Shortness of Breath', and are advised to 'Exercise regularly'. However, possible side effects include 'Fatigue'. Recommended treatment options include 'Dialysis'.
+
+For the condition 'Alzheimer’s', the prescribed medication is 'Codeine'. Patients may experience symptoms like 'Nausea', and are advised to 'Regular health check-ups'. However, possible side effects include 'Weight Gain'. Recommended treatment options include 'Rest and Hydration'.
+
+For the condition 'Hypertension', the prescribed medication is 'Warfarin'. Patients may experience symptoms like 'Cough', and are advised to 'Manage stress effectively'. However, possible side effects include 'Loss of Appetite'. Recommended treatment options include 'Antibiotics'.
+
+For the condition 'Anxiety', the prescribed medication is 'Atorvastatin'. Patients may experience symptoms like 'Chest Pain', and are advised to 'Stay hydrated'. However, possible side effects include 'Nausea'. Recommended treatment options include 'Chemotherapy'.
+
+For the condition 'COVID-19', the prescribed medication is 'Metformin'. Patients may experience symptoms like 'Fatigue', and are advised to 'Practice mindfulness'. However, possible side effects include 'Anxiety'. Recommended treatment options include 'Rest and Hydration'.
+
+For the condition 'Chronic Pain', the prescribed medication is 'Amoxicillin'. Patients may experience symptoms like 'Runny Nose', and are advised to 'Maintain a balanced diet'. However, possible side effects include 'Blurred Vision'. Recommended treatment options include 'Antivirals'.
+
+For the condition 'Alzheimer’s', the prescribed medication is 'Sertraline'. Patients may experience symptoms like 'Diarrhea', and are advised to 'Practice mindfulness'. However, possible side effects include 'Headache'. Recommended treatment options include 'Surgery'.
+
+For the condition 'Depression', the prescribed medication is 'Gabapentin'. Patients may experience symptoms like 'Sore Throat', and are advised to 'Stay hydrated'. However, possible side effects include 'Fatigue'. Recommended treatment options include 'Vaccination'.
+
+For the condition 'Common Cold', the prescribed medication is 'Sertraline'. Patients may experience symptoms like 'Runny Nose', and are advised to 'Exercise regularly'. However, possible side effects include 'Abdominal Pain'. Recommended treatment options include 'Pain Relievers'.
+
+For the condition 'Allergies', the prescribed medication is 'Sertraline'. Patients may experience symptoms like 'Blurred Vision', and are advised to 'Limit alcohol consumption'. However, possible side effects include 'Headache'. Recommended treatment options include 'Counseling'.
+
+For the condition 'Cancer', the prescribed medication is 'Sertraline'. Patients may experience symptoms like 'Fatigue', and are advised to 'Stay hydrated'. However, possible side effects include 'Insomnia'. Recommended treatment options include 'Physical Therapy'.
+
+For the condition 'Alzheimer’s', the prescribed medication is 'Insulin'. Patients may experience symptoms like 'Diarrhea', and are advised to 'Practice good hygiene'. However, possible side effects include 'Insomnia'. Recommended treatment options include 'Palliative Care'.
+
+For the condition 'Anxiety', the prescribed medication is 'Codeine'. Patients may experience symptoms like 'Runny Nose', and are advised to 'Stay hydrated'. However, possible side effects include 'Constipation'. Recommended treatment options include 'Counseling'.
+
+For the condition 'Alzheimer’s', the prescribed medication is 'Lisinopril'. Patients may experience symptoms like 'Nausea', and are advised to 'Practice good hygiene'. However, possible side effects include 'Loss of Appetite'. Recommended treatment options include 'Antibiotics'.
+
+For the condition 'Flu', the prescribed medication is 'Montelukast'. Patients may experience symptoms like 'Cough', and are advised to 'Stay hydrated'. However, possible side effects include 'Fatigue'. Recommended treatment options include 'Alternative Medicine'.
+
+For the condition 'Diabetes', the prescribed medication is 'Ibuprofen'. Patients may experience symptoms like 'Dizziness', and are advised to 'Stay hydrated'. However, possible side effects include 'Fever'. Recommended treatment options include 'Inhalers'.
+
+For the condition 'Chronic Pain', the prescribed medication is 'Amoxicillin'. Patients may experience symptoms like 'Chest Pain', and are advised to 'Regular health check-ups'. However, possible side effects include 'Loss of Appetite'. Recommended treatment options include 'Rehabilitation'.
+
+For the condition 'Migraine', the prescribed medication is 'Hydrochlorothiazide'. Patients may experience symptoms like 'Diarrhea', and are advised to 'Stay hydrated'. However, possible side effects include 'Anxiety'. Recommended treatment options include 'Antivirals'.
+
+For the condition 'Obesity', the prescribed medication is 'Montelukast'. Patients may experience symptoms like 'Fatigue', and are advised to 'Exercise regularly'. However, possible side effects include 'Blurred Vision'. Recommended treatment options include 'Inhalers'.
+
+For the condition 'Flu', the prescribed medication is 'Omeprazole'. Patients may experience symptoms like 'Chest Pain', and are advised to 'Practice mindfulness'. However, possible side effects include 'Dizziness'. Recommended treatment options include 'Physical Therapy'.
+
+For the condition 'Depression', the prescribed medication is 'Codeine'. Patients may experience symptoms like 'Fever', and are advised to 'Maintain a balanced diet'. However, possible side effects include 'Drowsiness'. Recommended treatment options include 'Inhalers'.
+
+For the condition 'Alzheimer’s', the prescribed medication is 'Sertraline'. Patients may experience symptoms like 'Nausea', and are advised to 'Practice mindfulness'. However, possible side effects include 'Muscle Cramps'. Recommended treatment options include 'Chemotherapy'.
+
+For the condition 'Cancer', the prescribed medication is 'Metformin'. Patients may experience symptoms like 'Blurred Vision', and are advised to 'Manage stress effectively'. However, possible side effects include 'Loss of Appetite'. Recommended treatment options include 'Lifestyle Changes'.
+
+For the condition 'Migraine', the prescribed medication is 'Lisinopril'. Patients may experience symptoms like 'Runny Nose', and are advised to 'Practice mindfulness'. However, possible side effects include 'Weight Gain'. Recommended treatment options include 'Rest and Hydration'.
+
+For the condition 'Flu', the prescribed medication is 'Paracetamol'. Patients may experience symptoms like 'Shortness of Breath', and are advised to 'Regular health check-ups'. However, possible side effects include 'Loss of Appetite'. Recommended treatment options include 'Surgery'.
+
+For the condition 'Allergies', the prescribed medication is 'Warfarin'. Patients may experience symptoms like 'Sore Throat', and are advised to 'Regular health check-ups'. However, possible side effects include 'Increased Blood Pressure'. Recommended treatment options include 'Chemotherapy'.
+
+For the condition 'Migraine', the prescribed medication is 'Lisinopril'. Patients may experience symptoms like 'Abdominal Pain', and are advised to 'Exercise regularly'. However, possible side effects include 'Fever'. Recommended treatment options include 'Surgery'.
+
+For the condition 'Obesity', the prescribed medication is 'Hydrochlorothiazide'. Patients may experience symptoms like 'Shortness of Breath', and are advised to 'Manage stress effectively'. However, possible side effects include 'Headache'. Recommended treatment options include 'Antibiotics'.
+
+For the condition 'Depression', the prescribed medication is 'Hydrochlorothiazide'. Patients may experience symptoms like 'Cough', and are advised to 'Maintain a balanced diet'. However, possible side effects include 'Abdominal Pain'. Recommended treatment options include 'Surgery'.
+
+For the condition 'Arthritis', the prescribed medication is 'Gabapentin'. Patients may experience symptoms like 'Blurred Vision', and are advised to 'Manage stress effectively'. However, possible side effects include 'Anxiety'. Recommended treatment options include 'Antibiotics'.
+
+For the condition 'Alzheimer’s', the prescribed medication is 'Ibuprofen'. Patients may experience symptoms like 'Fever', and are advised to 'Avoid smoking'. However, possible side effects include 'Increased Blood Pressure'. Recommended treatment options include 'Immunotherapy'.
+
+For the condition 'Bronchitis', the prescribed medication is 'Gabapentin'. Patients may experience symptoms like 'Swelling', and are advised to 'Practice mindfulness'. However, possible side effects include 'Fatigue'. Recommended treatment options include 'Immunotherapy'.
+
+For the condition 'Hypertension', the prescribed medication is 'Insulin'. Patients may experience symptoms like 'Sore Throat', and are advised to 'Stay hydrated'. However, possible side effects include 'Diarrhea'. Recommended treatment options include 'Chemotherapy'.
+
+For the condition 'Hypertension', the prescribed medication is 'Insulin'. Patients may experience symptoms like 'Runny Nose', and are advised to 'Avoid smoking'. However, possible side effects include 'Fatigue'. Recommended treatment options include 'Radiation Therapy'.
+
+For the condition 'Insomnia', the prescribed medication is 'Sertraline'. Patients may experience symptoms like 'Shortness of Breath', and are advised to 'Practice good hygiene'. However, possible side effects include 'Rash'. Recommended treatment options include 'Inhalers'.
+
+For the condition 'Allergies', the prescribed medication is 'Levothyroxine'. Patients may experience symptoms like 'Dizziness', and are advised to 'Limit alcohol consumption'. However, possible side effects include 'Weight Gain'. Recommended treatment options include 'Cognitive Behavioral Therapy'.
+
+For the condition 'Allergies', the prescribed medication is 'Omeprazole'. Patients may experience symptoms like 'Blurred Vision', and are advised to 'Get enough sleep'. However, possible side effects include 'Increased Blood Pressure'. Recommended treatment options include 'Chemotherapy'.
+
+For the condition 'Bronchitis', the prescribed medication is 'Gabapentin'. Patients may experience symptoms like 'Dizziness', and are advised to 'Exercise regularly'. However, possible side effects include 'Loss of Appetite'. Recommended treatment options include 'Cognitive Behavioral Therapy'.
+
+For the condition 'Hypertension', the prescribed medication is 'Omeprazole'. Patients may experience symptoms like 'Headache', and are advised to 'Practice mindfulness'. However, possible side effects include 'Abdominal Pain'. Recommended treatment options include 'Nutritional Therapy'.
+

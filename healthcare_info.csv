@@ -1,0 +1,101 @@
+condition,medication,symptoms,wellness_advice,side_effects,treatment_options
+Diabetes,Citalopram,Fatigue,Maintain a balanced diet,Constipation,Cognitive Behavioral Therapy
+Diabetes,Paracetamol,Abdominal Pain,Avoid smoking,Drowsiness,Rest and Hydration
+Flu,Montelukast,Diarrhea,Regular health check-ups,Swelling,Palliative Care
+Insomnia,Metformin,Nausea,Get enough sleep,Increased Heart Rate,Nutritional Therapy
+Flu,Metformin,Headache,Limit alcohol consumption,Dizziness,Palliative Care
+Chronic Pain,Lisinopril,Sore Throat,Limit alcohol consumption,Swelling,Medication
+Hypertension,Lisinopril,Dizziness,Practice good hygiene,Drowsiness,Pain Relievers
+Bronchitis,Gabapentin,Rash,Avoid smoking,Dizziness,Rest and Hydration
+Stroke,Atorvastatin,Sore Throat,Practice mindfulness,Nausea,Nutritional Therapy
+Depression,Albuterol,Vomiting,Avoid smoking,Headache,Rest and Hydration
+Depression,Levothyroxine,Cough,Exercise regularly,Weight Gain,Immunotherapy
+Bronchitis,Simvastatin,Diarrhea,Get enough sleep,Nausea,Pain Relievers
+Cancer,Simvastatin,Sore Throat,Get enough sleep,Blurred Vision,Antibiotics
+Pneumonia,Amoxicillin,Diarrhea,Practice good hygiene,Fatigue,Immunotherapy
+Stroke,Gabapentin,Chest Pain,Exercise regularly,Increased Heart Rate,Immunotherapy
+Pneumonia,Codeine,Fever,Practice mindfulness,Dizziness,Antibiotics
+Diabetes,Prednisone,Dizziness,Practice mindfulness,Nausea,Pain Relievers
+Bronchitis,Citalopram,Fever,Stay hydrated,Fatigue,Rest and Hydration
+Diabetes,Aspirin,Joint Pain,Limit alcohol consumption,Fever,Counseling
+Heart Disease,Sertraline,Joint Pain,Avoid smoking,Headache,Counseling
+Depression,Warfarin,Dizziness,Exercise regularly,Increased Heart Rate,Chemotherapy
+Pneumonia,Prednisone,Chest Pain,Exercise regularly,Swelling,Physical Therapy
+Heart Disease,Aspirin,Diarrhea,Get enough sleep,Dry Mouth,Antibiotics
+Insomnia,Montelukast,Nausea,Limit alcohol consumption,Loss of Appetite,Immunotherapy
+Asthma,Warfarin,Dizziness,Maintain a balanced diet,Increased Heart Rate,Counseling
+Common Cold,Amoxicillin,Rash,Get enough sleep,Dry Mouth,Cognitive Behavioral Therapy
+Common Cold,Montelukast,Nausea,Practice mindfulness,Fatigue,Rehabilitation
+Anxiety,Sertraline,Abdominal Pain,Get enough sleep,Rash,Cognitive Behavioral Therapy
+Bronchitis,Warfarin,Cough,Practice mindfulness,Loss of Appetite,Pain Relievers
+Chronic Pain,Atorvastatin,Back Pain,Manage stress effectively,Anxiety,Vaccination
+Pneumonia,Albuterol,Sore Throat,Get enough sleep,Constipation,Surgery
+Alzheimer’s,Levothyroxine,Blurred Vision,Stay hydrated,Constipation,Alternative Medicine
+Anxiety,Omeprazole,Runny Nose,Practice good hygiene,Loss of Appetite,Chemotherapy
+Diabetes,Insulin,Joint Pain,Get enough sleep,Fever,Palliative Care
+Arthritis,Gabapentin,Chest Pain,Maintain a balanced diet,Muscle Cramps,Vaccination
+Depression,Simvastatin,Sore Throat,Stay hydrated,Nausea,Inhalers
+Bronchitis,Levothyroxine,Diarrhea,Get enough sleep,Fever,Dialysis
+Common Cold,Prednisone,Headache,Manage stress effectively,Insomnia,Dialysis
+Flu,Montelukast,Vomiting,Regular health check-ups,Dry Mouth,Alternative Medicine
+Arthritis,Levothyroxine,Nausea,Maintain a balanced diet,Abdominal Pain,Rehabilitation
+Cancer,Gabapentin,Chest Pain,Get enough sleep,Headache,Palliative Care
+Arthritis,Levothyroxine,Chills,Maintain a balanced diet,Weight Gain,Nutritional Therapy
+Bronchitis,Atorvastatin,Muscle Pain,Practice mindfulness,Constipation,Pain Relievers
+Stroke,Codeine,Sore Throat,Manage stress effectively,Loss of Appetite,Immunotherapy
+COVID-19,Aspirin,Swelling,Exercise regularly,Anxiety,Antibiotics
+Pneumonia,Montelukast,Nausea,Maintain a balanced diet,Increased Blood Pressure,Radiation Therapy
+Allergies,Ibuprofen,Swelling,Practice good hygiene,Dry Mouth,Antivirals
+COVID-19,Lisinopril,Chest Pain,Regular health check-ups,Abdominal Pain,Counseling
+Chronic Pain,Warfarin,Diarrhea,Stay hydrated,Increased Blood Pressure,Radiation Therapy
+Stroke,Simvastatin,Fatigue,Manage stress effectively,Drowsiness,Physical Therapy
+Cancer,Warfarin,Rash,Regular health check-ups,Diarrhea,Counseling
+Hypertension,Citalopram,Sore Throat,Manage stress effectively,Drowsiness,Rehabilitation
+Stroke,Simvastatin,Swelling,Stay hydrated,Abdominal Pain,Inhalers
+Allergies,Montelukast,Rash,Limit alcohol consumption,Constipation,Inhalers
+Obesity,Atorvastatin,Abdominal Pain,Regular health check-ups,Drowsiness,Pain Relievers
+Pneumonia,Prednisone,Blurred Vision,Practice mindfulness,Abdominal Pain,Chemotherapy
+Pneumonia,Metformin,Fatigue,Manage stress effectively,Drowsiness,Surgery
+Obesity,Simvastatin,Back Pain,Avoid smoking,Blurred Vision,Antivirals
+COVID-19,Warfarin,Vomiting,Stay hydrated,Constipation,Inhalers
+Chronic Pain,Citalopram,Muscle Pain,Maintain a balanced diet,Swelling,Pain Relievers
+Stroke,Ibuprofen,Sore Throat,Limit alcohol consumption,Increased Heart Rate,Surgery
+Obesity,Lisinopril,Shortness of Breath,Exercise regularly,Fatigue,Dialysis
+Alzheimer’s,Codeine,Nausea,Regular health check-ups,Weight Gain,Rest and Hydration
+Hypertension,Warfarin,Cough,Manage stress effectively,Loss of Appetite,Antibiotics
+Anxiety,Atorvastatin,Chest Pain,Stay hydrated,Nausea,Chemotherapy
+COVID-19,Metformin,Fatigue,Practice mindfulness,Anxiety,Rest and Hydration
+Chronic Pain,Amoxicillin,Runny Nose,Maintain a balanced diet,Blurred Vision,Antivirals
+Alzheimer’s,Sertraline,Diarrhea,Practice mindfulness,Headache,Surgery
+Depression,Gabapentin,Sore Throat,Stay hydrated,Fatigue,Vaccination
+Common Cold,Sertraline,Runny Nose,Exercise regularly,Abdominal Pain,Pain Relievers
+Allergies,Sertraline,Blurred Vision,Limit alcohol consumption,Headache,Counseling
+Cancer,Sertraline,Fatigue,Stay hydrated,Insomnia,Physical Therapy
+Alzheimer’s,Insulin,Diarrhea,Practice good hygiene,Insomnia,Palliative Care
+Anxiety,Codeine,Runny Nose,Stay hydrated,Constipation,Counseling
+Alzheimer’s,Lisinopril,Nausea,Practice good hygiene,Loss of Appetite,Antibiotics
+Flu,Montelukast,Cough,Stay hydrated,Fatigue,Alternative Medicine
+Diabetes,Ibuprofen,Dizziness,Stay hydrated,Fever,Inhalers
+Chronic Pain,Amoxicillin,Chest Pain,Regular health check-ups,Loss of Appetite,Rehabilitation
+Migraine,Hydrochlorothiazide,Diarrhea,Stay hydrated,Anxiety,Antivirals
+Obesity,Montelukast,Fatigue,Exercise regularly,Blurred Vision,Inhalers
+Flu,Omeprazole,Chest Pain,Practice mindfulness,Dizziness,Physical Therapy
+Depression,Codeine,Fever,Maintain a balanced diet,Drowsiness,Inhalers
+Alzheimer’s,Sertraline,Nausea,Practice mindfulness,Muscle Cramps,Chemotherapy
+Cancer,Metformin,Blurred Vision,Manage stress effectively,Loss of Appetite,Lifestyle Changes
+Migraine,Lisinopril,Runny Nose,Practice mindfulness,Weight Gain,Rest and Hydration
+Flu,Paracetamol,Shortness of Breath,Regular health check-ups,Loss of Appetite,Surgery
+Allergies,Warfarin,Sore Throat,Regular health check-ups,Increased Blood Pressure,Chemotherapy
+Migraine,Lisinopril,Abdominal Pain,Exercise regularly,Fever,Surgery
+Obesity,Hydrochlorothiazide,Shortness of Breath,Manage stress effectively,Headache,Antibiotics
+Depression,Hydrochlorothiazide,Cough,Maintain a balanced diet,Abdominal Pain,Surgery
+Arthritis,Gabapentin,Blurred Vision,Manage stress effectively,Anxiety,Antibiotics
+Alzheimer’s,Ibuprofen,Fever,Avoid smoking,Increased Blood Pressure,Immunotherapy
+Bronchitis,Gabapentin,Swelling,Practice mindfulness,Fatigue,Immunotherapy
+Hypertension,Insulin,Sore Throat,Stay hydrated,Diarrhea,Chemotherapy
+Hypertension,Insulin,Runny Nose,Avoid smoking,Fatigue,Radiation Therapy
+Insomnia,Sertraline,Shortness of Breath,Practice good hygiene,Rash,Inhalers
+Allergies,Levothyroxine,Dizziness,Limit alcohol consumption,Weight Gain,Cognitive Behavioral Therapy
+Allergies,Omeprazole,Blurred Vision,Get enough sleep,Increased Blood Pressure,Chemotherapy
+Bronchitis,Gabapentin,Dizziness,Exercise regularly,Loss of Appetite,Cognitive Behavioral Therapy
+Hypertension,Omeprazole,Headache,Practice mindfulness,Abdominal Pain,Nutritional Therapy
