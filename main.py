@@ -12,16 +12,11 @@ import os
 from dotenv import load_dotenv
 
 # Create a custom output parser to ensure we only get the answer text
-
-
 class AnswerOnlyOutputParser(StrOutputParser):
     def parse(self, output: str) -> str:
         # I have given answer at the end of prompt template
         answer = output.split('Answer:')[-1].strip()
         return answer
-
-# Function to load text data and convert it to documents
-
 
 def load_text_data(file_path):
     with open(file_path, 'r') as file:
@@ -35,16 +30,13 @@ pinecone.init(
     api_key=os.getenv('PINECONE_API_KEY'),
     environment='gcp-starter'
 )
-
-# Define Index Name
 index_name = "langchain-demo"
 
 # Checking Index
 if index_name not in pinecone.list_indexes():
-    # Create new Index
     pinecone.create_index(name=index_name, metric="cosine", dimension=768)
 
-# Define the repo ID and connect to Mixtral model on Huggingface
+# LLM
 repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
 llm = HuggingFaceHub(
     repo_id=repo_id,
@@ -52,7 +44,7 @@ llm = HuggingFaceHub(
     huggingfacehub_api_token=os.getenv('HUGGINGFACE_API_KEY')
 )
 
-# Prepare the prompt template
+# prompt template
 template = """
 You are a medical assistant bot. The Humans will ask you a questions about their medical condition, symptoms, treatment options and medications. 
 Answer the questions based on the provided context only.
@@ -69,7 +61,6 @@ prompt = PromptTemplate(
     input_variables=["context", "question"]
 )
 
-# Embeddings and text splitter setup
 embeddings = HuggingFaceEmbeddings()
 
 # Load documents from text file
@@ -82,7 +73,7 @@ docs = text_splitter.split_documents(documents)
 # Create Pinecone index from documents
 docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
 
-# Create the RAG chain with the custom answer-only output parser
+# Create the RAG chain
 rag_chain = (
     {"context": docsearch.as_retriever(), "question": RunnablePassthrough()}
     | prompt
@@ -91,17 +82,14 @@ rag_chain = (
 )
 
 # Function for generating LLM response
-
-
 def generate_response(input):
     result = rag_chain.invoke(input)
-    return result  # The AnswerOnlyOutputParser will ensure only the answer is returned
+    return result  # only the answer is returned
 
 
 # Streamlit app setup
 st.set_page_config(page_title="Medical Diagnose Bot", page_icon="💉")
 st.title("Medical Diagnose Bot 💉")
-# Display the advisory message always
 st.markdown(
     "<p style='color: #FF0000; font-size: 1.1em; font-style:italic; font-family: 'Roboto', sans-serif;'>"
     "Disclaimer: The information provided by this chatbot is for informational purposes only and should not be considered as medical advice. "
