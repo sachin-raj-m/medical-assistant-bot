@@ -99,9 +99,8 @@ def generate_response(input):
 
 
 # Streamlit app setup
-st.set_page_config(page_title="Medical Diagnose Bot")
-with st.sidebar:
-    st.title('Medical Diagnose Bot')
+st.set_page_config(page_title="Medical Diagnose Bot", page_icon="💉")
+st.title("Medical Diagnose Bot 💉")
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
@@ -134,3 +133,62 @@ if st.session_state.messages[-1]["role"] != "assistant":
             st.write(response)  # This will now only display the answer
     message = {"role": "assistant", "content": response}
     st.session_state.messages.append(message)
+
+
+# Add custom CSS for styling
+st.markdown("""
+    <style>
+    .chat-message {
+        border-radius: 15px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .user-message {
+        background-color: #1A1A19;
+        align-self: flex-end;
+    }
+    .assistant-message {
+        background-color: #4A628A;
+       
+        align-self: flex-start;
+    }
+    .message-box {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .header {
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+    .button-container {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 1000;
+        padding: 10px;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# Sidebar buttons
+with st.sidebar:
+    st.header("Chat Options")
+    if st.button("Start New Chat"):
+        # Preserve the current chat history
+        if "messages" in st.session_state:
+            if "previous_chats" not in st.session_state:
+                st.session_state.previous_chats = []
+            st.session_state.previous_chats.append(st.session_state.messages)
+        st.session_state.messages = [{"role": "assistant", "content": "Welcome, let's diagnose and help you!"}]
+    
+    if st.button("Previous Chats"):
+        if "previous_chats" in st.session_state and st.session_state.previous_chats:
+            for idx, chat in enumerate(st.session_state.previous_chats):
+                st.write(f"### Chat {idx + 1}")
+                for message in chat:
+                    st.markdown(f'<div class="chat-message {message["role"]}-message">{message["content"]}</div>', unsafe_allow_html=True)
+        else:
+            st.write("No previous chats available.")
