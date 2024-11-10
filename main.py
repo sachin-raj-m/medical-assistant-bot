@@ -103,9 +103,9 @@ st.set_page_config(page_title="Medical Diagnose Bot", page_icon="💉")
 st.title("Medical Diagnose Bot 💉")
 # Display the advisory message always
 st.markdown(
-    "<p style='color: #FF0000; font-size: 1.2em; font-weight: bold;'>"
+    "<p style='color: #FF0000; font-size: 1.1em; font-style:italic; font-family: 'Roboto', sans-serif;'>"
     "Disclaimer: The information provided by this chatbot is for informational purposes only and should not be considered as medical advice. "
-    "Always consult a qualified healthcare provider for advice regarding any medical concerns.</p>", 
+    "Always consult a qualified healthcare provider for advice regarding any medical concerns.</p>",
     unsafe_allow_html=True
 )
 
@@ -190,19 +190,22 @@ with st.sidebar:
             if "previous_chats" not in st.session_state:
                 st.session_state.previous_chats = []
             st.session_state.previous_chats.append(st.session_state.messages)
-        st.session_state.messages = [{"role": "assistant", "content": "Welcome, let's diagnose and help you!"}]
-    
+        st.session_state.messages = [
+            {"role": "assistant", "content": "Welcome, let's diagnose and help you!"}]
+
     if st.button("Previous Chats"):
         if "previous_chats" in st.session_state and st.session_state.previous_chats:
             for idx, chat in enumerate(st.session_state.previous_chats):
                 st.write(f"### Chat {idx + 1}")
                 for message in chat:
-                    st.markdown(f'<div class="chat-message {message["role"]}-message">{message["content"]}</div>', unsafe_allow_html=True)
+                    st.markdown(f'<div class="chat-message {message["role"]}-message">{
+                                message["content"]}</div>', unsafe_allow_html=True)
         else:
             st.write("No previous chats available.")
-            
+
     if st.button("Clear All Conversations"):
         # Clear all conversation history
-        st.session_state.messages = [{"role": "assistant", "content": "Welcome, let's diagnose and help you!"}]
+        st.session_state.messages = [
+            {"role": "assistant", "content": "Welcome, let's diagnose and help you!"}]
         st.session_state.previous_chats = []  # Clear previous chats too
         st.write("All conversations have been cleared.")
