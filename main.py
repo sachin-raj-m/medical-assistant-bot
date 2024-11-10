@@ -16,8 +16,7 @@ from dotenv import load_dotenv
 
 class AnswerOnlyOutputParser(StrOutputParser):
     def parse(self, output: str) -> str:
-        # Assuming the answer is at the end of the response (after 'Answer:')
-        # You can modify this based on the format of your response
+        # I have given answer at the end of prompt template
         answer = output.split('Answer:')[-1].strip()
         return answer
 
@@ -126,6 +125,12 @@ if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
         with st.spinner("Getting your answer from medical database.."):
             response = generate_response(input)
+
+            # DEBUGGING: Retrieve the context and log or display it for debugging purposes
+            # context = rag_chain.input_variables["context"]
+            # st.write(f"**DEBUGGING: Retrieved Context:**\n{context}")
+            # print(f"**DEBUGGING: Retrieved Context:**\n{context}")
+
             st.write(response)  # This will now only display the answer
     message = {"role": "assistant", "content": response}
     st.session_state.messages.append(message)
