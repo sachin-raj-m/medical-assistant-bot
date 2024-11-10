@@ -11,8 +11,19 @@ from langchain.schema import Document
 import os
 from dotenv import load_dotenv
 
+# Create a custom output parser to ensure we only get the answer text
+
+
+class AnswerOnlyOutputParser(StrOutputParser):
+    def parse(self, output: str) -> str:
+        # Assuming the answer is at the end of the response (after 'Answer:')
+        # You can modify this based on the format of your response
+        answer = output.split('Answer:')[-1].strip()
+        return answer
 
 # Function to load text data and convert it to documents
+
+
 def load_text_data(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
@@ -42,11 +53,12 @@ llm = HuggingFaceHub(
     huggingfacehub_api_token=os.getenv('HUGGINGFACE_API_KEY')
 )
 
+# Prepare the prompt template
 template = """
-You are a medical assistant bot. The Humans will ask you a questions about their medical condition, symptoms, treatment options, and medications. 
+You are a medical assistant bot. The Humans will ask you a questions about their medical condition, symptoms, treatment options and medications. 
 Answer the questions based on the provided context only.
 Please provide the most accurate response based on the question.
-Keep the answer concise.  
+Keep the answer concise.
 
 Context: {context}
 Question: {question}
@@ -61,47 +73,36 @@ prompt = PromptTemplate(
 # Embeddings and text splitter setup
 embeddings = HuggingFaceEmbeddings()
 
+# Load documents from text file
+documents = load_text_data('healthcare_info_processed.txt')
 
-# Function to reload documents based on the selected context source
-def reload_documents():
-    return load_text_data('healthcare_info_processed.txt')
+# Split documents into chunks
+text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=4)
+docs = text_splitter.split_documents(documents)
+
+# Create Pinecone index from documents
+docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
+
+# Create the RAG chain with the custom answer-only output parser
+rag_chain = (
+    {"context": docsearch.as_retriever(), "question": RunnablePassthrough()}
+    | prompt
+    | llm
+    | AnswerOnlyOutputParser()  # Use the custom output parser here
+)
+
+# Function for generating LLM response
 
 
-# Function for creating RAG chain after context reload
-def create_rag_chain(documents):
-    # Split documents into chunks
-    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=4)
-    docs = text_splitter.split_documents(documents)
-
-    docsearch = Pinecone.from_documents(
-        docs, embeddings, index_name=index_name)
-
-    rag_chain = (
-        {"context": docsearch.as_retriever(),  "question": RunnablePassthrough()}
-        | prompt
-        | llm
-        | StrOutputParser()
-    )
-
-    return rag_chain
+def generate_response(input):
+    result = rag_chain.invoke(input)
+    return result  # The AnswerOnlyOutputParser will ensure only the answer is returned
 
 
 # Streamlit app setup
 st.set_page_config(page_title="Medical Diagnose Bot")
 with st.sidebar:
     st.title('Medical Diagnose Bot')
-
-# Load documents from the text file
-documents = reload_documents()
-
-# Create the RAG chain based on the loaded documents
-rag_chain = create_rag_chain(documents)
-
-# Function for generating LLM response
-def generate_response(input):
-    result = rag_chain.invoke(input)
-    return result
-
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
@@ -125,6 +126,6 @@ if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
         with st.spinner("Getting your answer from medical database.."):
             response = generate_response(input)
-            st.write(response)
+            st.write(response)  # This will now only display the answer
     message = {"role": "assistant", "content": response}
     st.session_state.messages.append(message)
