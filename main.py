@@ -101,6 +101,14 @@ def generate_response(input):
 # Streamlit app setup
 st.set_page_config(page_title="Medical Diagnose Bot", page_icon="💉")
 st.title("Medical Diagnose Bot 💉")
+# Display the advisory message always
+st.markdown(
+    "<p style='color: #FF0000; font-size: 1.2em; font-weight: bold;'>"
+    "Disclaimer: The information provided by this chatbot is for informational purposes only and should not be considered as medical advice. "
+    "Always consult a qualified healthcare provider for advice regarding any medical concerns.</p>", 
+    unsafe_allow_html=True
+)
+
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
