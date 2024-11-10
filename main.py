@@ -192,3 +192,9 @@ with st.sidebar:
                     st.markdown(f'<div class="chat-message {message["role"]}-message">{message["content"]}</div>', unsafe_allow_html=True)
         else:
             st.write("No previous chats available.")
+            
+    if st.button("Clear All Conversations"):
+        # Clear all conversation history
+        st.session_state.messages = [{"role": "assistant", "content": "Welcome, let's diagnose and help you!"}]
+        st.session_state.previous_chats = []  # Clear previous chats too
+        st.write("All conversations have been cleared.")
